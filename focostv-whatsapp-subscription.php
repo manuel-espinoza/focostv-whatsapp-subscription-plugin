@@ -106,7 +106,8 @@ function focostv_whatsapp_channel_subscription()
                 S&eacute; el primero en saberlo.
             </h2>
             <p class="focostv-whatsapp-subscription-text">
-                &Uacute;nete a nuestro canal de WhatsApp para recibir todas las actualizaciones y novedades al instante,
+                &Uacute;nete a nuestro <a href="https://wa.me/<?php echo esc_attr($phone); ?>">canal de WhatsApp</a> para
+                recibir todas las actualizaciones y novedades al instante,
                 directamente en tu tel&eacute;fono.
             </p>
         </div>

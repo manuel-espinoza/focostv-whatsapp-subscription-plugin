@@ -21,6 +21,11 @@
     color: #0f0f0f;
 }
 
+.focostv-whatsapp-subscription-text > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .focostv-whatsapp-subscription-button-container {
     display: flex;
 }
@@ -37,4 +42,15 @@
     font-weight: 600;
     text-align: center;
     width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .focostv-whatsapp-subscription-icon {
+        text-align: left;
+    }
+
+    .focostv-whatsapp-subscription-button-container {
+        display: none;
+    }
 }
